@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 assignment- images, forms, tables etc</title>
+</head>
+<body>
+    <main>
+        <h2>HTML Image</h2>
+        <img src="https://www.pexels.com/photo/historic-fort-in-okzitanien-france-30327991/" alt="castle Image" height="400" width="400">
+        <audio src="" controls muted autoplay alt></audio>
+
+        <!--HTML FORM-->
+        <h2>HTML FORM</h2>
+        <form action="#" method="POST">
+            <h2>Register</h2>
+        
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" minlength="3" maxlength="50"><br>
+        
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" aria-required="true" required><br>
+        
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required minlength="6">
+        
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="e.g., 1234567890"><br>
+        
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required><br>
+        
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+              <option value="">--Select--</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <br>
+
+            <label>Would you like to subscribe?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="subscribe" value="yes" required> Yes</label>
+                <label><input type="radio" name="subscribe" value="no" required> No</label>
+            </div>
+        
+            <button type="submit">Register</button>
+          </form>
+          <!--FORM END-->
+
+        <h2>HTML TABLE</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>maths</th>
+                    <th>English</th>
+                    <th>cur affairs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ola</td>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>78</td>
+                    <td>88</td>
+                  </tr>
+                  <tr>
+                    <td>Ibro</td>
+                    <td>92</td>
+                    <td>84</td>
+                    <td>80</td>
+                    <td>76</td>
+                  </tr>
+                  <tr>
+                    <td>Alice</td>
+                    <td>88</td>
+                    <td>95</td>
+                    <td>89</td>
+                    <td>91</td>
+                    </tr>
+            </tbody>
+        </table>
+
+        <h2>Ordered list</h2>
+        <ol type="i">
+            <li>lanre</li>
+            <li>Ibrahim</li>
+            <li>Olanre</li>
+        </ol>
+    </main>
+</body>
+</html>
